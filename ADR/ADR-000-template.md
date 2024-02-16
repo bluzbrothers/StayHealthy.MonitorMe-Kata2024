@@ -10,13 +10,11 @@ Accepted
 Why is a decision needed?
 
 ### Decision:
-Whet is a decision?
+What is a decision?
 
 ### Consequences:
-
-
 #### PROS:
-+ consequences
+- consequences
 
 #### Cons:
 - consequences
