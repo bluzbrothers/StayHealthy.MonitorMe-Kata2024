@@ -35,3 +35,16 @@ Functional requirements are determined based on the input from stakeholders. [re
 | FR8 | **Data Accuracy and Confidentiality**: <br> - Maintain high accuracy of vital sign data analysis and recording. <br> - Uphold patient confidentiality and data security standards set by StayHealthy, Inc., without the need for compliance with external regulatory requirements (e.g., HIPAA). |
 | FR9 | **Adaptability to Change**: <br> - Be adaptable to changes in the healthcare market and requirements as StayHealthy, Inc. gains more insights. |
 | FR10 | **Integration**: <br> - Integrate with StayHealthy's comprehensive hardware and software platform, including data stores, databases, and other technical tools and products. |
+
+### Non-functional Requirements
+
+| NFR | Requirement |
+|-----|-------------|
+| NFR1 | **Performance**: <br> - Achieve an average response time of 1 second or less for displaying vital signs on the consolidated monitoring screen. <br> - Ensure timely processing and analysis of vital sign data, meeting specified thresholds for responsiveness. |
+| NFR2 | **Scalability**: <br> - Scale the system to accommodate up to 500 patients per physical MonitorMe instance. <br> - Design the architecture to be easily scalable for future expansion and addition of more vital sign monitoring devices. |
+| NFR3 | **Reliability**: <br> - Ensure continuous operation of MonitorMe, even in the event of device failures or network interruptions. <br> - Minimize downtime and ensure high availability to support critical patient monitoring needs. |
+| NFR4 | **Security**: <br> - Implement robust security measures to protect patient monitoring data from unauthorized access, tampering, or breaches. <br> - Ensure compliance with StayHealthy, Inc.'s data security and confidentiality standards. |
+| NFR5 | **Accuracy**: <br> - Ensure high accuracy of vital sign data analysis and recording to support reliable healthcare decision-making. <br> - Minimize errors and discrepancies in vital sign readings and analysis. |
+| NFR6 | **Usability**: <br> - Design the user interface of MonitorMe to be intuitive and user-friendly, facilitating ease of use for medical professionals. <br> - Provide adequate training and support resources to ensure effective utilization of the system. |
+| NFR7 | **Adaptability**: <br> - Ensure MonitorMe is adaptable to changes in the healthcare market and evolving hospital requirements. <br> - Facilitate seamless integration with existing hospital workflows and systems. |
+
