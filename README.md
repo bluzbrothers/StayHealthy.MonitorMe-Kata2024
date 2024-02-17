@@ -26,3 +26,4 @@ Functional requirements are determined based on the input from stakeholders. [re
 | #    | Requirement                                                                                                                                                 |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | FR1  | MonitorMe reads data from eight different patient-monitoring equipment vital sign input sources                                                             |
+| FR2  | Data from the vital sign input sources must be sent to a consolidated monitoring screen at each nurses station with an average response time of 1 second or less.                                                            |
