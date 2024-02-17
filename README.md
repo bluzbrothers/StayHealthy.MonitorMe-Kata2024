@@ -1,5 +1,10 @@
-# StayHealthy.MonitorMe-Kata2024
+# StayHealthy.MonitorMe | Architectural Kata (Winter 2024)
 
+## The BluzBrothers Team
+* Sebastian Dąbkowski &emsp;&emsp; &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/sebastiandabkowski/)
+* Piotr Filipowicz &emsp;&emsp; &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/piotr-filipowicz-402b062a/)
+* Wojciech Kasa &emsp;&emsp; &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/wojciech-kasa-b271b0141/)
+* Artur Kruszewski &emsp;&emsp; &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/artur-kruszewski/)
 ## Overview
 
 *MonitorMe*
