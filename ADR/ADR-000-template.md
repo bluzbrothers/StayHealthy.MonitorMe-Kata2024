@@ -1,20 +1,20 @@
-## ADR-000: ADR template
+# ADR-000: ADR template
 
-### Date:
+## Date:
 2011-11-15
 
-### Status:
+## Status:
 Accepted
 
-### Context:
+## Context:
 Why is a decision needed?
 
-### Decision:
+## Decision:
 What is a decision?
 
-### Consequences:
-#### PROS:
+## Consequences:
+### PROS:
 - consequences
 
-#### Cons:
+### Cons:
 - consequences
