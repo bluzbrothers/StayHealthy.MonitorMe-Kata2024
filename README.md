@@ -48,6 +48,15 @@ Functional requirements are determined based on the input from stakeholders. [re
 | NFR6 | **Usability**: <br> - Design the user interface of MonitorMe to be intuitive and user-friendly, facilitating ease of use for medical professionals. <br> - Provide adequate training and support resources to ensure effective utilization of the system. |
 | NFR7 | **Adaptability**: <br> - Ensure MonitorMe is adaptable to changes in the healthcare market and evolving hospital requirements. <br> - Facilitate seamless integration with existing hospital workflows and systems. |
 
+### Actors
+
+| Actor                   | Actions                                                                                                                                                                           |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Medical Professionals <br> (Nurses / Doctors)   | - Monitor patients' vital signs <br> - Analyze vital sign data <br> - Respond to alerts <br> - View consolidated vital sign data on nurses station screens <br> - Receive push notifications on the StayHealthy mobile app <br> - Register the patients in hospital |
+| Patients                | - Have their vital signs monitored by MonitorMe                                                                                                                                   |
+| System Administrators  | - Install and configure MonitorMe <br> - Maintain and update MonitorMe <br> - Handle technical issues and troubleshooting                                                          |
+| StayHealthy, Inc. Staff| - Develop MonitorMe software <br> - Provide technical support <br> - Address user concerns and feedback                                                                              |
+| Regulatory Authorities  | - Establish compliance standards and guidelines <br> - Influence system development and implementation through regulatory requirements                                            |
 
 
 # Chosen architecture characteristics
