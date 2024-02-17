@@ -48,3 +48,13 @@ Functional requirements are determined based on the input from stakeholders. [re
 | NFR6 | **Usability**: <br> - Design the user interface of MonitorMe to be intuitive and user-friendly, facilitating ease of use for medical professionals. <br> - Provide adequate training and support resources to ensure effective utilization of the system. |
 | NFR7 | **Adaptability**: <br> - Ensure MonitorMe is adaptable to changes in the healthcare market and evolving hospital requirements. <br> - Facilitate seamless integration with existing hospital workflows and systems. |
 
+
+
+# Chosen architecture characteristics
+
+Choosing the right architecture characteristics is a crucial process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to fulfill the system requirements effectively. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
+Based on the requirements and our expertise, the following top three characteristics have been identified:
+
+<img src="resources/images/top3_characteristics.png">
+
+For a detailed description of the process, please refer to the following [section](resources/characteristics.md).
