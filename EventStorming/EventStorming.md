@@ -4,18 +4,6 @@ In the world of software engineering, the project "Monitor Me" presented a chall
 ## 1. Collecting Events
 The first step was to collect events crucial for the functioning of the "Monitor Me" system. The following events were identified:
 
-Patient registered
-Sensors chosen
-Patient and gateway paired
-Sensor data read
-Sensor data sent/received
-Data logged from devices
-Sensor data saved
-Vital signs analyzed
-Issue detected
-Alert sent
-Snapshot generated/uploaded
-Patient unregistered
 <img src="1.png" />
 
 ## 2. Time Sequencing
