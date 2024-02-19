@@ -36,7 +36,7 @@ Here are the results:
 <img src="resources/images/domains.png" />
 
 ## Architecture characteristics identification
-The Business Requirements and Event Storming results have led us to delve deeper into the project and (identify crucial architectural characteristics)(resources/characteristics.md) that are highly important for the Monitor Me system.
+The Business Requirements and Event Storming results have led us to delve deeper into the project and [identify crucial architectural characteristics](resources/characteristics.md) that are highly important for the Monitor Me system.
 
 Choosing the right architectural characteristics is a critical process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to effectively fulfill the system requirements. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
 Based on the requirements and our expertise, the following top three characteristics have been identified:
