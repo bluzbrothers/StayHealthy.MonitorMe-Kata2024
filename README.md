@@ -9,15 +9,18 @@
 * Sebastian Dąbkowski &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/sebastiandabkowski/)
 
 ## Introduction
-Welcome to the architectural story of MonitorMe - the O'Reilly Winter 2024 Architectural Kata. MonitorMe is an advanced medical patient monitoring system created by StayHealthy, Inc. As the healthcare industry continues to evolve, the demand for sophisticated monitoring solutions becomes increasingly important. MonitorMe meets this demand by providing a comprehensive platform that continuously monitors patients' vital signs, analyzes data for potential issues, and notifies medical professionals when necessary. This architectural narrative offers a detailed exploration of MonitorMe's system architecture, emphasizing its main components, data flow, communication methods, and adherence to non-functional requirements. By understanding MonitorMe's architecture, stakeholders and the development team can gain insight into how the system functions, its alignment with business objectives, and its potential to improve patient care in healthcare environments. Let's explore the architectural complexities of MonitorMe to reveal its innovative design and capabilities. 
+Welcome to the architectural story of MonitorMe - the O'Reilly Winter 2024 Architectural Kata.
+
+MonitorMe is an advanced medical patient monitoring system created by StayHealthy, Inc. As the healthcare industry continues to evolve, the demand for sophisticated monitoring solutions becomes increasingly important. MonitorMe meets this demand by providing a comprehensive platform that continuously monitors patients' vital signs, analyzes data for potential issues, and notifies medical professionals when necessary. This architectural narrative offers a detailed exploration of MonitorMe's system architecture, emphasizing its main components, data flow, communication methods, and adherence to non-functional requirements. By understanding MonitorMe's architecture, stakeholders and the development team can gain insight into how the system functions, its alignment with business objectives, and its potential to improve patient care in healthcare environments. Let's explore the architectural complexities of MonitorMe to reveal its innovative design and capabilities. 
+
 
 
 ## *MonitorMe* Overview
-
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
 MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance analytics-alert response times, patient health problem analytics, patient recovery analysis, and so on.
 MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other health professionals to record and track a patient's health records with guaranteed partitioning between patient records.
 StayHealthy, Inc. is now expanding into the medical monitoring market and is in need of a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
+
 
 ## The requirements
 Upon receiving the [requirements](requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
@@ -27,13 +30,15 @@ We came up with [distilled requirements](./resources/distilled-requirements.md).
 * Alerting the medical staff on both mobile devices and the nurse's station when anomalies are detected based on defined and easily extendable rules.
 * Browsing the patient's vital signs (maximum 24 hours) and sending the snapshot to *MyMedicalData.*
 
+
 ## Exploring the business domain (find better name for business domain)
 We conducted *Event Storming* technique to identify business domain for the MonitorMe system. 
 This collaborative workshop helped us visualize system workflows, identify domain events, and determine the interactions between components. 
 Through this process, we identified the necessary components and their relationships, informing the design and implementation of the system.
 Here are the results:
 
-<img src="resources/images/domains.png" />
+<img src="resources/images/4components.png" />
+
 
 ## Architecture characteristics identification
 The Business Requirements and Event Storming results have led us to delve deeper into the project and [identify crucial architectural characteristics](resources/characteristics.md) that are highly important for the Monitor Me system.
@@ -43,9 +48,11 @@ Based on the requirements and our expertise, the following top three characteris
 
 <img src="resources/images/top3-characteristics.png">
 
+
 ## Choosing the architecture
 Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case.
 <img src="resources/images/chosen-architecture.png">
+
 
 ## The architecture details
 By utilizing the C4 approach, specifically focusing on the Context (C1) and Container (C2) views, we can effectively visualize the overall structure and key dependencies within the MonitorMe system. 
@@ -56,5 +63,6 @@ This approach enables us to gain a comprehensive understanding of the system arc
 The picture below show the final Container (C2) view.
 
 <img src="resources/images/c2.png">
+
 
 ## TBD...
