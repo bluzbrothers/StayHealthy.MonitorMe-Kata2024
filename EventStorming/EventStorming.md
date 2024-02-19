@@ -5,7 +5,7 @@ In the world of software engineering, the project "Monitor Me" presented a chall
 The first step was to collect events crucial for the functioning of the "Monitor Me" system. The following events were identified:
 
 - **Patient registered**: A new patient is added to the system, initiating their health monitoring journey.
-- **Sensors chosen**: Specific sensors are selected based on the patient's health monitoring needs.
+- **Sensors chosen**: Specific sensors are selected based on the patient's health monitoring.
 - **Patient and gateway paired**: The patient's device is paired with a gateway to facilitate the transmission of sensor data.
 - **Sensor data read**: Sensors attached to the patient collect health data.
 - **Sensor data sent**: The collected sensor data is sent from the patient's device to the system for processing.
