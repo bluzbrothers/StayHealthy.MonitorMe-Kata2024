@@ -41,7 +41,7 @@ The Business Requirements and Event Storming results have led us to delve deeper
 Choosing the right architectural characteristics is a critical process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to effectively fulfill the system requirements. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
 Based on the requirements and our expertise, the following top three characteristics have been identified:
 
-<img src="resources/images/top3_characteristics.png">
+<img src="resources/images/top3-characteristics.png">
 
 ## Choosing the architecture
 Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case.
