@@ -19,6 +19,42 @@ MonitorThem a comprehensive data analytics platform that is used for hospital tr
 MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other health professionals to record and track a patient's health records with guaranteed partitioning between patient records.
 StayHealthy, Inc. is now expanding into the medical monitoring market and is in need of a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
+## The requirements
 Upon receiving the [requirements](requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
-We came up with [distilled requirements](./resources/distilled-requirements.md)
+We came up with [distilled requirements](./resources/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
+* Collecting data from sensors and visualizing them on the nurse's station.
+* Alerting the medical staff on both mobile devices and the nurse's station when anomalies are detected based on defined and easily extendable rules.
+* Browsing the patient's vital signs (maximum 24 hours) and sending the snapshot to *MyMedicalData.*
+
+## Exploring the business domain (find better name for business domain)
+We conducted *Event Storming* technique to identify business domain for the MonitorMe system. 
+This collaborative workshop helped us visualize system workflows, identify domain events, and determine the interactions between components. 
+Through this process, we identified the necessary components and their relationships, informing the design and implementation of the system.
+Here are the results:
+
+<img src="resources/images/domains.png" />
+
+## Architecture characteristics identification
+The Business Requirements and Event Storming results have led us to delve deeper into the project and (identify crucial architectural characteristics)(resources/characteristics.md) that are highly important for the Monitor Me system.
+
+Choosing the right architectural characteristics is a critical process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to effectively fulfill the system requirements. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
+Based on the requirements and our expertise, the following top three characteristics have been identified:
+
+<img src="resources/images/top3_characteristics.png">
+
+## Choosing the architecture
+Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case.
+<img src="resources/images/chosen-architecture.png">
+
+## The architecture details
+By utilizing the C4 approach, specifically focusing on the Context (C1) and Container (C2) views, we can effectively visualize the overall structure and key dependencies within the MonitorMe system. 
+The Context view allows us to understand the high-level relationships and interactions between the system and its external components or systems. 
+Meanwhile, the Container view provides a detailed breakdown of the internal components and how they are organized within containers such as services, databases, and user interfaces. 
+This approach enables us to gain a comprehensive understanding of the system architecture, facilitating effective communication and decision-making throughout the development process.
+
+The picture below show the final Container (C2) view.
+
+<img src="resources/images/c2.png">
+
+## TBD...
