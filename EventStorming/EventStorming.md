@@ -47,6 +47,7 @@ This phase defined the actors and commands necessary for user interaction with t
 **user role**:
 - nurse - frontline healthcare providers responsible for the setup of patient monitoring devices, ongoing monitoring, and responding to system-generated alerts and notifications.
 - medical professionals - healthcare providers, including doctors and specialists, use the system for detailed analysis of patient health data and create snapshot data.
+
 **commands**:
 - time interval - sets or adjusts the intervals at which sensor data is read or updates are sent to healthcare providers, customizable to patient needs and condition severity.
 - transfer data - initiates the transfer of patient data from sensors to the central system for analysis, or between healthcare systems, for comprehensive patient care management.
