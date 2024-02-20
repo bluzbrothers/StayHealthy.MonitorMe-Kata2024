@@ -25,23 +25,24 @@ StayHealthy, Inc. is now expanding into the medical monitoring market and is in 
 ## The requirements
 Upon receiving the [requirements](Business/requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
-We came up with [distilled requirements](Business/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
+We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
 * Collecting data from sensors and visualizing them on the nurse's station.
 * Alerting the medical staff on both mobile devices and the nurse's station when anomalies are detected based on defined and easily extendable rules.
-* Browsing the patient's vital signs (maximum 24 hours) and sending the snapshot to *MyMedicalData.*
+* Browsing the patient's vital signs (maximum 24 hours).
+* Sending the snapshot to *MyMedicalData.*
 
 
 ## Exploring components
 We conducted *Event Storming* technique to identify main components for the MonitorMe system. 
 This collaborative workshop helped us visualize system workflows, identify domain events, and determine the interactions between components. 
-Through this process, we identified the necessary components and their relationships, informing the design and implementation of the system.
+Through this process, we [identified the necessary components and their relationships](EventStorming/EventStorming.md), informing the design and implementation of the system.
 Here are the results:
 
 <img src="ArchitectureCharacteristics/images/4components.png" />
 
 
-## Architecture characteristics identification
-The Business Requirements and Event Storming results have led us to delve deeper into the project and [identify crucial architectural characteristics](ArchitectureCharacteristics/characteristics.md) that are highly important for the Monitor Me system.
+## Identifying architecture characteristics
+The [Business Requirements](Business/distilled-requirements.md) and [Event Storming](EventStorming/EventStorming.md) results have led us to delve deeper into the project and [identify crucial architectural characteristics](ArchitectureCharacteristics/characteristics.md) that are highly important for the Monitor Me system.
 
 Choosing the right architectural characteristics is a critical process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to effectively fulfill the system requirements. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
 Based on the requirements and our expertise, the following top three characteristics have been identified:
@@ -54,11 +55,12 @@ Having identified the top three driving characteristics, we can simply choose th
 <img src="ArchitectureCharacteristics/images/chosen-architecture.png" />
 
 
-## The architecture details
+## Designing the architecture
 By utilizing the C4 approach, specifically focusing on the Context (C1) and Container (C2) views, we can effectively visualize the overall structure and key dependencies within the MonitorMe system. 
 
 ### Context view (C1)
 The Context view allows us to understand the high-level relationships and interactions between the system and its external components or systems. 
+All architectural decisions are documented as the Architecture Decision Records (ADRs).
 
 <img src="C4/images/c1.png" />
 
@@ -74,10 +76,11 @@ The picture below show the final Container (C2) view.
 
 The whole description of the Context view can be found [here](/C4/C2-containers.md).
 
-## Supportive domains
+## Postponed decisions or well-known issues
 
- | Functionality                          | Description                                                                                                                                                                                                                                                                                                     |
- |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
- | Authentication and Authorization       | The whole authentication and authorization should be considered, hovwer it is a known issue that could be solved on both ways:<br/> - as a part of MonitorMe system<br /> - as the SSO of the current solution in hospital                                                                                      |
- | Push notifications to the mobole phone | Push notifications are a standard solution for delivering real-time alerts to users' devices. However, their implementation falls outside the scope of the current architecture proposal, which focuses on defining system components. Integrating push notification functionality will be addressed separately. |
- | VPN to the external systems            | To decide in further steps whether establishing VPN for access to the MedicalData is worth considering for enhanced security and privacy. On this stage, it doesn't play significant role and this decision can be taken later.                                                                                 |
+ | Functionality                          | Description                                                                                                                                                                                                                                                                                                      |
+ |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+ | Authentication and Authorization       | The whole authentication and authorization should be considered, hovwer it is a known issue that could be solved on both ways:<br/> - as a part of MonitorMe system<br /> - as the SSO of the current solution in hospital                                                                                       |
+ | Push notifications to the mobile phone | Push notifications are a standard solution for delivering real-time alerts to users' devices. However, their implementation falls outside the scope of the current architecture proposal, which focuses on defining system components. Integrating push notification functionality will be addressed separately. |
+ | VPN to the external systems            | To decide in further steps whether establishing VPN for access to the MedicalData is worth considering for enhanced security and privacy. On this stage, it doesn't play significant role and this decision can be taken later.                                                                                  |
+ | The hardware                           | Computers, servers, display screens should follow the newest commercial standards and parameters.                                                                                                                                                                                                                |
