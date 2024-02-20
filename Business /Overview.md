@@ -1,5 +1,6 @@
 # Business Context for "Monitor Me"
-<img src="/Business/monitor_me.png" />
+<img src="/Business/monitor_me.png" width="400px" />
+
 ## Overview:
 "Monitor Me" is a comprehensive patient monitoring system designed to revolutionize the way healthcare providers manage and monitor patient health. By leveraging advanced sensor technology and real-time data analytics, "Monitor Me" aims to enhance patient care, improve health outcomes, and reduce the burden on healthcare systems.
 
