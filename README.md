@@ -72,9 +72,14 @@ This approach enables us to gain a comprehensive understanding of the system arc
 
 The picture below show the final Container (C2) view.
 
-<img src="C4/images/c2.jpg">
+<img src="C4/images/c2.jpg" />
 
 The whole description of the Context view can be found [here](/C4/C2-containers.md).
+
+### Component view (C3)
+The team opted to create a [C3 component diagram](C4/C3-components.md) for the Vital Sign Analyzer as it represents the most critical and intricate component.
+
+<img src="C4/images/c3-analyzer.png" />
 
 ## Postponed decisions or well-known issues
 
