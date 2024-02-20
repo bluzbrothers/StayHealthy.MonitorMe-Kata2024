@@ -36,38 +36,65 @@ Subsequently, the events were sequenced chronologically to understand the flow o
 <img src="2.png" />
 
 ## 3. Backward validation and removal of unnecessary events
-In this phase, after a thorough analysis and validation of events, it was decided to remove unnecessary events that did not add value to the system or were redundant. Events such as "history data reviewed", "history data archived after 24h", and "history data deleted after 24h" were eliminated, as they did not fit. Based on requirements solution will be addressed by storing data in a time-series database. Info Was addded in [ADR-004](/ADR/ADR-004-data-retention-policy.md)
+In this phase, after a thorough analysis and validation of events, it was decided to remove unnecessary events that did not add value to the system or were redundant. Events such as "history data reviewed", "history data archived after 24h", and "history data deleted after 24h" were eliminated, as they did not fit. Based on requirements solution will be addressed by storing data in a time-series database. Info Was added in [ADR-004](/ADR/ADR-004-data-retention-policy.md)
 
 <img src="3.png" />
 
-## 4. Adding views and commands
-This phase defined the views and commands necessary for user interaction with the system and event processing. Example commands include:
+## 4. Adding actors and commands
+This phase defined the actors and commands necessary for user interaction with the system and event processing. Example commands include:
+
+
+**user role**:
+- nurse - frontline healthcare providers responsible for the setup of patient monitoring devices, ongoing monitoring, and responding to system-generated alerts and notifications.
+- medical professionals - healthcare providers, including doctors and specialists, use the system for detailed analysis of patient health data and create snapshot data.
+**commands**:
+- time interval - sets or adjusts the intervals at which sensor data is read or updates are sent to healthcare providers, customizable to patient needs and condition severity.
+- transfer data - initiates the transfer of patient data from sensors to the central system for analysis, or between healthcare systems, for comprehensive patient care management.
 
 <img src="4.png" />
 
-RegisterPatient
-ChooseSensors
-PairPatientGateway
-ReadSensorData
-AnalyzeVitalSigns
-GenerateSnapshot
-Views were designed to present data to system users, such as:
-
-Nurse dashboard
-Patient status screen
-Alert history
-
 ## 5. Grouping events
-Events were grouped according to functionality or business processes, e.g., patient registration, data monitoring, health status analysis. This grouping helped understand the system's modular nature and facilitated the design of microservices components.
+Events were grouped according to functionality or business processes, e.g., patient registration, data monitoring, and health status analysis. This grouping helped us understand the system's modular nature and facilitated the design of bounded context.
+
+In this phase, bounded contexts:
+1. Patient Registration
+- manages the enrollment of new patients into the system.
+- collects initial health data and sets up patient profiles.
+
+2. Gateway
+- serves as the bridge for data transmission between patient sensors/devices and the system's server.
+- ensures secure and efficient data flow.
+
+3. Recorder
+- logs and stores incoming raw sensor data from patients.
+- maintains data integrity and ensures it is readily accessible for analysis.
+
+4. Analyzer
+- processes and analyzes recorded data to detect health trends and anomalies.
+- provides insights into patient health status.
+
+5. Monitor
+- continuously oversees patient data to ensure it remains within safe health parameters.
+- identifies critical conditions that require immediate attention.
+
+6. Notification
+- generates and sends alerts and notifications to healthcare providers based on analysis results.
+- ensures timely intervention by medical staff in response to patient health changes.
 
 <img src="5.png" />
 
 ## 6. Adding policy
-The final step was adding a policy for event and data management, which outlined how the system should respond to different scenarios. This policy included data security rules, procedures for detecting anomalies in patient data, and communication protocols for critical situations.
-
-During the design of the "Monitor Me" system, the development team created an ADR (Architectural Decision Record), documenting key architectural decisions made in the project. An ADR is not only a way to record the rationale behind decisions but also a tool to support future maintenance and development of the system.
-
+The final step was adding a policy for event and data management, which outlined how the system should respond to different scenarios. This policy included data retention rules, procedures for detecting anomalies in patient data, and communication protocols for critical situations.
+- retention policy 24h - [ADR-004](/ADR/ADR-004-data-retention-policy.md) 
+- alert created based on custom rules - based on requirements 
+- data seen on screen in average 1s - based on requirements
 <img src="6.png" />
 
+Detailed info:
+<img src="6.1.png" />
+
 # Summary:
-By applying the event storming methodology, the "Monitor Me" project was successfully designed, considering all critical events, their dependencies, and defining key system components. This technical journey demonstrates how complex systems can be methodically designed, from identifying events to implementing management policies, ensuring their effectiveness and resilience to change.
+
+During the design of the "Monitor Me" system, we created an ADR (Architectural Decision Record), documenting key architectural decisions made in the project. An ADR is not only a way to record the rationale behind decisions but also a tool to support future maintenance and development of the system.
+
+By applying the event storming methodology, the "Monitor Me" project was successfully designed, considering all critical events, and their dependencies, and defining key system components. This technical journey demonstrates how complex systems can be methodically designed, from identifying events to implementing management policies, ensuring their effectiveness and resilience to change.
