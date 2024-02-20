@@ -1,27 +1,3 @@
-# StayHealthy.MonitorMe | Architectural Kata (Winter 2024)
-
-## The BluzBrothers Team
-<img src="ArchitectureCharacteristics/images/Kata.png" />
-
-* Artur Kruszewski &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/artur-kruszewski/)
-* Wojciech Kasa &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/wojciech-kasa-b271b0141/)
-* Piotr Filipowicz &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/piotr-filipowicz-402b062a/)
-* Sebastian Dąbkowski &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/sebastiandabkowski/)
-
-## Overview
-
-*MonitorMe*
-
-StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
-
-MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance analytics-alert response times, patient health problem analytics, patient recovery analysis, and so on.
-
-MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other health professionals to record and track a patient's health records with guaranteed partitioning between patient records.
-
-StayHealthy, Inc. is now expanding into the medical monitoring market and is in need of a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
-
-## Requirements Overview
-
 ### Functional Requirements
 
 Functional requirements are determined based on the input from stakeholders. [requirements](requirements.md).
@@ -50,23 +26,3 @@ Functional requirements are determined based on the input from stakeholders. [re
 | NFR5 | **Accuracy**: <br> - Ensure high accuracy of vital sign data analysis and recording to support reliable healthcare decision-making. <br> - Minimize errors and discrepancies in vital sign readings and analysis. |
 | NFR6 | **Usability**: <br> - Design the user interface of MonitorMe to be intuitive and user-friendly, facilitating ease of use for medical professionals. <br> - Provide adequate training and support resources to ensure effective utilization of the system. |
 | NFR7 | **Adaptability**: <br> - Ensure MonitorMe is adaptable to changes in the healthcare market and evolving hospital requirements. <br> - Facilitate seamless integration with existing hospital workflows and systems. |
-
-### Actors
-
-| Actor                   | Actions                                                                                                                                                                           |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Medical Professionals <br> (Nurses / Doctors)   | - Monitor patients' vital signs <br> - Analyze vital sign data <br> - Respond to alerts <br> - View consolidated vital sign data on nurses station screens <br> - Receive push notifications on the StayHealthy mobile app <br> - Register the patients in hospital |
-| Patients                | - Have their vital signs monitored by MonitorMe                                                                                                                                   |
-| System Administrators  | - Install and configure MonitorMe <br> - Maintain and update MonitorMe <br> - Handle technical issues and troubleshooting                                                          |
-| StayHealthy, Inc. Staff| - Develop MonitorMe software <br> - Provide technical support <br> - Address user concerns and feedback                                                                              |
-| Regulatory Authorities  | - Establish compliance standards and guidelines <br> - Influence system development and implementation through regulatory requirements                                            |
-
-
-# Chosen architecture characteristics
-
-Choosing the right architecture characteristics is a crucial process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to fulfill the system requirements effectively. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
-Based on the requirements and our expertise, the following top three characteristics have been identified:
-
-<img src="ArchitectureCharacteristics/images/top3_characteristics.png">
-
-For a detailed description of the process, please refer to the following [section](ArchitectureCharacteristics/characteristics.md).

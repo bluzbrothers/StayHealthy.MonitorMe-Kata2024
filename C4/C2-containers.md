@@ -1,4 +1,4 @@
-## Level 3 - Container 
+## Container view (C2)
 ### Vital Sign Recorder
 Vital Sing Recorder is responsible for:
 * storing received raw vital sign sensor data
