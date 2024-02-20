@@ -1,6 +1,6 @@
 # Architecture characteristics
 
-## Requirements Distillation
+## Requirements Refinement
 To effectively select the appropriate architecture characteristics, it is essential to begin with the requirements and meticulously identify keywords, aligning them with the pertinent definitions of architecture characteristics.
 
 <img src="images/characteristics.png" />
