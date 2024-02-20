@@ -49,6 +49,40 @@ Among the remaining four characteristics:
 * *Performance*
 * *Elasticity*
 
+Then, during requirements distillation we assigned the requirements to the characteristics:
+
+## Availability:
+
+- MonitorMe needs to be highly available to ensure continuous monitoring of patients' vital signs.
+- The system should be resilient to failures of individual vital sign devices or software components, ensuring uninterrupted monitoring.
+- Availability is crucial for timely alerts to medical professionals in case of any issues detected with patients' vital signs.
+- The system should have redundancy mechanisms in place to handle failures without disruption to the monitoring process.
+- In case of hardware or software failures, the system should gracefully degrade functionality to ensure critical monitoring tasks continue.
+
+## Evolvability:
+
+- StayHealthy, Inc. anticipates future changes and additions to the vital sign monitoring devices.
+- The architecture should be designed to accommodate future expansions and integrations seamlessly.
+- Modularity and extensibility should be key design principles to facilitate easy integration of new vital sign devices or changes to existing ones.
+- The system should support updates and enhancements without significant downtime or disruption to ongoing monitoring activities.
+- StayHealthy, Inc. should be able to adapt the system to meet changing business needs and market demands efficiently.
+
+## Performance:
+
+- The system should provide real-time monitoring with an average response time of 1 second or less for consolidating and displaying patients' vital signs.
+- Efficient data processing and analysis are required to ensure timely alerts to medical professionals based on preset thresholds or detected issues.
+- Scalability and optimization are necessary to handle the varying rates at which vital sign readings are transmitted from different monitoring devices.
+- The system should be capable of storing and retrieving past 24 hours of vital sign readings for each patient efficiently.
+- Performance optimizations should be implemented to handle the concurrent monitoring of multiple patients with different vital sign devices.
+
+## Elasticity:
+
+- The architecture should be able to scale resources dynamically to accommodate varying workloads and the addition of new patients or vital sign devices.
+- Elasticity is crucial to handle peak loads and spikes in data transmission rates from vital sign devices without impacting system performance.
+- Auto-scaling mechanisms should be implemented to adjust computing resources based on demand, ensuring optimal resource utilization and cost-effectiveness.
+- The system should be designed to scale horizontally to support the deployment of multiple instances across different physical hospital locations without sacrificing performance or availability.
+
+
 it is challenging to narrow down to only three characteristics, but it is important to note that *Availability* is contingent upon both *Performance* and *Elasticity*. 
 If both are satisfactory, the system should remain available. Consequently, the final Top 3 are *Evolvability*, *Performance*, and *Elasticity*.
 
