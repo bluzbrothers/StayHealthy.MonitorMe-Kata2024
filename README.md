@@ -66,7 +66,7 @@ All architectural decisions are documented as the Architecture Decision Records 
 
 The whole description of the Context view can be found [here](/C4/C1-context.md).
 
-### Component view (C2)
+### Container view (C2)
 Meanwhile, the Container view provides a detailed breakdown of the internal components and how they are organized within containers such as services, databases, and user interfaces. 
 This approach enables us to gain a comprehensive understanding of the system architecture, facilitating effective communication and decision-making throughout the development process.
 
@@ -80,7 +80,7 @@ The whole description of the Context view can be found [here](/C4/C2-containers.
 
  | Functionality                          | Description                                                                                                                                                                                                                                                                                                      |
  |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
- | Authentication and Authorization       | The whole authentication and authorization should be considered, hovwer it is a known issue that could be solved on both ways:<br/> - as a part of MonitorMe system<br /> - as the SSO of the current solution in hospital                                                                                       |
+ | Authentication and Authorization       | The whole authentication and authorization should be considered, however it is a known issue that could be solved on both ways:<br/> - as a part of MonitorMe system<br /> - as the SSO of the current solution in hospital                                                                                      |
  | Push notifications to the mobile phone | Push notifications are a standard solution for delivering real-time alerts to users' devices. However, their implementation falls outside the scope of the current architecture proposal, which focuses on defining system components. Integrating push notification functionality will be addressed separately. |
  | VPN to the external systems            | To decide in further steps whether establishing VPN for access to the MedicalData is worth considering for enhanced security and privacy. On this stage, it doesn't play significant role and this decision can be taken later.                                                                                  |
  | The hardware                           | Computers, servers, display screens should follow the newest commercial standards and parameters.                                                                                                                                                                                                                |
