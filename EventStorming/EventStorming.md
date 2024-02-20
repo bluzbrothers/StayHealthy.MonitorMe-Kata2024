@@ -28,17 +28,17 @@ The first step was to collect events crucial for the functioning of the "Monitor
 - **Software updated**: The system's software is updated to introduce new features, fix bugs, or improve performance.
 
 
-<img src="1.png" />
+<img src="images/1.png" />
 
 ## 2. Time sequencing
 Subsequently, the events were sequenced chronologically to understand the flow of data and interactions within the system. This sequence helped identify the temporal dependencies between events and how they impact the system's operation and the patient care process.
 
-<img src="2.png" />
+<img src="images/2.png" />
 
 ## 3. Backward validation and removal of unnecessary events
 In this phase, after a thorough analysis and validation of events, it was decided to remove unnecessary events that did not add value to the system or were redundant. Events such as "history data reviewed", "history data archived after 24h", and "history data deleted after 24h" were eliminated, as they did not fit. Based on requirements solution will be addressed by storing data in a time-series database. Info Was added in [ADR-004](/ADR/ADR-004-data-retention-policy.md)
 
-<img src="3.png" />
+<img src="images/3.png" />
 
 ## 4. Adding actors and commands
 This phase defined the actors and commands necessary for user interaction with the system and event processing. Example commands include:
@@ -52,7 +52,7 @@ This phase defined the actors and commands necessary for user interaction with t
 - time interval - sets or adjusts the intervals at which sensor data is read or updates are sent to healthcare providers, customizable to patient needs and condition severity.
 - transfer data - initiates the transfer of patient data from sensors to the central system for analysis, or between healthcare systems, for comprehensive patient care management.
 
-<img src="4.png" />
+<img src="images/4.png" />
 
 ## 5. Grouping events
 Events were grouped according to functionality or business processes, e.g., patient registration, data monitoring, and health status analysis. This grouping helped us understand the system's modular nature and facilitated the design of bounded context.
@@ -82,7 +82,7 @@ In this phase, bounded contexts:
 - generates and sends alerts and notifications to healthcare providers based on analysis results.
 - ensures timely intervention by medical staff in response to patient health changes.
 
-<img src="5.png" />
+<img src="images/5.png" />
 
 ## 6. Adding policy
 The final step was adding a policy for event and data management, which outlined how the system should respond to different scenarios. This policy included data retention rules, procedures for detecting anomalies in patient data, and communication protocols for critical situations.
@@ -92,7 +92,7 @@ The final step was adding a policy for event and data management, which outlined
 <img src="6.png" />
 
 Detailed info:
-<img src="6.1.png" />
+<img src="images/6.1.png" />
 
 # Summary:
 
