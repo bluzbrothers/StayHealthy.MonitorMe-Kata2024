@@ -62,7 +62,7 @@ This approach enables us to gain a comprehensive understanding of the system arc
 
 The picture below show the final Container (C2) view.
 
-<img src="resources/images/c2.png">
+<img src="resources/images/c2.jpg">
 
 
 ## TBD...
