@@ -1,4 +1,4 @@
-MonitorMe
+# MonitorMe
 
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
 
@@ -8,7 +8,7 @@ MyMedicalData is a comprehensive cloud-based patient medical records system used
 
 StayHealthy, Inc. is now expanding into the medical monitoring market and is in need of a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
-Requirements
+## Requirements
 - MonitorMe reads data from eight different patient-monitoring equipment vital sign input sources: heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and sleep status (sleep or awake). It then sends the data to a consolidated monitoring screen (per nurses station) with an average response time of 1 second or less. The consolidated monitoring screen displays each patient's vital signs, rotating between patients every 5 seconds. There is a maximum of 20 patients per nurses station.
   
 - For each vital sign, MonitorMe must record and store the past 24 hours of all vital sign readings. A medical professional can review this history, filtering on time range as well as vital sign.
@@ -23,7 +23,7 @@ Requirements
 
 - Medical staff can generate holistic snapshots from a patient's consolidated vital signs at any time. Medical staff can then upload the patient snapshot to MyMedicalData. The upload functionality is within the scope of the MonitorMe functionality and is done through a secure HTTP API call within MyMedicalData.
   
- Requirements (cont.)
+## Requirements (cont.)
 - Each patient monitoring device transmits vital sign readings at a different rate:
   - Heart rate: every 500ms
   - Blood pressure: every hour
@@ -40,7 +40,7 @@ Requirements
 
 - StayHealthy. Inc. will be providing a comprehensive hardware and software for this system. The platform, data stores, databases, and other technical tools and products are unspecified at this time and will be based on your on-prem architectural solution.
   
-Other Considerations
+## Other Considerations
 
 - StayHealthy, Inc. is looking towards adding more vital sign monitoring devices for MonitorMe in the future.
 

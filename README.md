@@ -23,7 +23,7 @@ StayHealthy, Inc. is now expanding into the medical monitoring market and is in 
 
 
 ## The requirements
-Upon receiving the [requirements](requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
+Upon receiving the [requirements](Business/requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
 We came up with [distilled requirements](Business/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
 * Collecting data from sensors and visualizing them on the nurse's station.
