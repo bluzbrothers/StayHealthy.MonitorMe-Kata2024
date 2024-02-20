@@ -31,8 +31,8 @@ We came up with [distilled requirements](Business/distilled-requirements.md). Fr
 * Browsing the patient's vital signs (maximum 24 hours) and sending the snapshot to *MyMedicalData.*
 
 
-## Exploring the business domain (find better name for business domain)
-We conducted *Event Storming* technique to identify business domain for the MonitorMe system. 
+## Exploring components
+We conducted *Event Storming* technique to identify main components for the MonitorMe system. 
 This collaborative workshop helped us visualize system workflows, identify domain events, and determine the interactions between components. 
 Through this process, we identified the necessary components and their relationships, informing the design and implementation of the system.
 Here are the results:
@@ -51,7 +51,7 @@ Based on the requirements and our expertise, the following top three characteris
 
 ## Choosing the architecture
 Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case.
-<img src="resources/images/chosen-architecture.png">
+<img src="ArchitectureCharacteristics/images/chosen-architecture.png" />
 
 
 ## The architecture details
