@@ -29,8 +29,8 @@ The primary considerations that should be prioritized are as follows:
 * *Configurability*, because the alert's rules should be configurable.
 
 
-The importance of *Scalability* has been downplayed as the maximum load has already been defined. In the event of adding new sensors, the system can be manually rescaled by incorporating additional nodes or hardware. [ADR-008](/ADR/ADR-008-scalibility-downplayed.md)
-Regarding *Deployability*, its significance is diminished as the system will be installed only once per hospital, without the need for migrations. [ADR-009](/ADR/ADR-009-deployability-downplayed.md)
+The importance of *Scalability* has been downplayed as the maximum load has already been defined. In the event of adding new sensors, the system can be manually rescaled by incorporating additional nodes or hardware. More info here: [ADR-008](/ADR/ADR-008-scalibility-downplayed.md)
+Regarding *Deployability*, its significance is diminished as the system will be installed only once per hospital, without the need for migrations. More info here: [ADR-009](/ADR/ADR-009-deployability-downplayed.md)
 
 
 # Finding top3 architecture characteristics
