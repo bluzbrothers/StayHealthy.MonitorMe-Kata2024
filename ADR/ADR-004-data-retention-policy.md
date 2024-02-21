@@ -3,7 +3,7 @@
 2024-02-17
 
 ## Status:
-Proposed
+Accepted
 
 ## Context:
 In the context of our project, managing data storage efficiently while adhering to privacy regulations and system performance requirements is crucial. The volume of data generated and collected by our system, particularly time-series data, necessitates a clear data retention policy to balance between data availability, compliance, and resource optimization.

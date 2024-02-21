@@ -3,7 +3,7 @@
 2024-02-17
 
 ## Status:
-Proposed
+Accepted
 
 ## Context:
 Our project requires the efficient handling and analysis of large volumes of time-stamped data. The nature of this data is predominantly time series, characterized by its sequential order and the critical need for high-performance read/write operations, as well as advanced analytical capabilities. The choice of database technology is pivotal to meet these requirements and ensure the scalability, performance, and reliability of our system.

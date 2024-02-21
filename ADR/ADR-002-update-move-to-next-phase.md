@@ -3,7 +3,7 @@
 2024-02-16
 
 ## Status:
-Proposed
+Accepted
 
 ## Context:
 In the planning phase of our information system project, we faced the issue of task prioritization and time constraints. Due to limited resources and the necessity to deliver the first version of the product promptly, the project team must choose which functionalities to implement in the initial stage of development. The system update mechanism is one of the functionalities that require special consideration.
