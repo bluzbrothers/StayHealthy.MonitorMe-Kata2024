@@ -36,7 +36,10 @@ Subsequently, the events were sequenced chronologically to understand the flow o
 <img src="images/2.png" />
 
 ## 3. Backward validation and removal of unnecessary events
-In this phase, after a thorough analysis and validation of events, it was decided to remove unnecessary events that did not add value to the system or were redundant. Events such as "history data reviewed", "history data archived after 24h", and "history data deleted after 24h" were eliminated, as they did not fit. Based on requirements solution will be addressed by storing data in a time-series database. Info Was added in [ADR-004](/ADR/ADR-004-data-retention-policy.md)
+In this phase, after a thorough analysis and validation of events, it was decided to remove unnecessary events that did not add value to the system or were redundant.
+During this phase, we will not consider the "System Updated" event which has been deleted. However, it has to be agreed upon later.[ADR-002](/ADR/ADR-002-update-move-to-next-phase copy.md)
+
+Events such as "history data reviewed", "history data archived after 24h", and "history data deleted after 24h" were eliminated, as they did not fit. Based on requirements, the solution will be addressed by storing data in a time-series database. Info Was added in [ADR-004](/ADR/ADR-004-data-retention-policy.md)
 
 <img src="images/3.png" />
 
