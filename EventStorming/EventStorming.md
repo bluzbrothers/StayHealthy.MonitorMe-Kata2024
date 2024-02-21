@@ -101,4 +101,27 @@ Detailed info:
 
 During the design of the "Monitor Me" system, we created an ADR (Architectural Decision Record), documenting key architectural decisions made in the project. An ADR is not only a way to record the rationale behind decisions but also a tool to support future maintenance and development of the system.
 
-By applying the event storming methodology, the "Monitor Me" project was successfully designed, considering all critical events, and their dependencies, and defining key system components. This technical journey demonstrates how complex systems can be methodically designed, from identifying events to implementing management policies, ensuring their effectiveness and resilience to change.
+By applying the Event Storming methodology, we can effectively define appropriate bounded contexts within our software architecture. Patient Registration, Sensors, Recorder, Analyzer, Monitor, and Alert represent distinct bounded contexts, each responsible for a specific business aspect of the system. This approach allows us to delineate and address the unique concerns associated with each context, facilitating a more organized and modular system design.
+
+Available Bounded Contexts:
+
+**Patient Registration:** - manages the business process of registering patients and assigning them to the appropriate sensors.
+ **Sensors:** - handles the responsibility of collecting vital signs and life activity data from patients.
+ **Recorder:** - ensures the reception and secure storage of sensor data, preventing any loss or misplacement.
+ **Monitor:** - displays monitored data for medical personnel, providing real-time insights into patient status.
+ **Analyzer:** - responsible for analyzing data and detecting anomalies based on predefined rules.
+ **Alert:** - manages the sending and delivery of notifications to the relevant systems based on identified issues.
+
+<img src="images/7.png" />
+
+Based on the requirements and responses from the email, the following steps have been taken:
+1. **Patient Registration:** - defined as a part of the system outside the scope of this solution, under ADR-005.
+2. **Sensors:** - Also identified as a system component to be designed outside the scope of this solution, as outlined in ADR-006.
+
+Within the scope of this solution, the following contexts have been established: Recorder, Analyzer, Monitor, and Alert.
+
+<img src="images/7.1.png" />
+
+Transitioning from business contexts to component naming, it was realized that the term "Monitor" wasn't a suitable technical name for the responsibilities of this component. After careful consideration, we decided on a more fitting name: "Stramer." This decision was formalized in ADR-007, determining it as a more accurate name. Consequently, the final set of components comprises a Vital Sign Recorder, Vital Sign Analyzer, Vital Sign Stramer, and Vital Sign Alert. To provide a clearer understanding of each component's business significance, the prefix "Vital Sign" was added.
+
+<img src="images/components.png" />
