@@ -1,20 +1,21 @@
-# ADR-000: ADR template
+# ADR-007: Naming Convention for Components
 
 ## Date:
-2011-11-15
+2024-02-21
 
 ## Status:
 Accepted
 
 ## Context:
-Why is a decision needed?
+The "MonitorMe" project, focused on patient monitoring, encountered the need to address four bounded contexts after an event storming session: Recorder, Monitor, Analyzer, and Alert.
 
 ## Decision:
-What is a decision?
+The decision is to refine the component naming convention by introducing "Vital Sign" as a prefix, e.g., "Vital Sign Recorder." Additionally, for better clarity of the Monitor's responsibility, its name is changed to "Stremer."
 
 ## Consequences:
-### PROS:
-- consequences
+### Pros:
+- Improved understanding of component responsibilities at the system level.
+- Enhanced clarity in communicating the purpose of each component.
 
 ### Cons:
-- consequences
+- No identified drawbacks at this time.
