@@ -38,7 +38,7 @@ This collaborative workshop helped us visualize system workflows, identify domai
 Through this process, we [identified the necessary components and their relationships](EventStorming/EventStorming.md), informing the design and implementation of the system.
 Here are the results:
 
-<img src="ArchitectureCharacteristics/images/4components.png" />
+<img src="EventStorming/images/components.png" />
 
 
 ## Identifying architecture characteristics
