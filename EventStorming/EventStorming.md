@@ -91,8 +91,8 @@ In this phase, bounded contexts:
 The final step was adding a policy for event and data management, which outlined how the system should respond to different scenarios. This policy included data retention rules, procedures for detecting anomalies in patient data, and communication protocols for critical situations.
 - retention policy 24h - [ADR-004](/ADR/ADR-004-data-retention-policy.md) 
 - alert created based on custom rules - based on requirements 
-- data seen on screen in average 1s - based on requirements
-<img src="6.png" />
+- data are seen on screen in average 1s - based on requirements
+
 
 Detailed info:
 <img src="images/6.1.png" />
