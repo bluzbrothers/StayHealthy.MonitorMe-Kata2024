@@ -104,12 +104,16 @@ During the design of the "Monitor Me" system, we created an ADR (Architectural D
 By applying the Event Storming methodology, we can effectively define appropriate bounded contexts within our software architecture. Patient Registration, Sensors, Recorder, Analyzer, Monitor, and Alert represent distinct bounded contexts, each responsible for a specific business aspect of the system. This approach allows us to delineate and address the unique concerns associated with each context, facilitating a more organized and modular system design.
 
 Available Bounded Contexts:
-
 **Patient Registration:** - manages the business process of registering patients and assigning them to the appropriate sensors.
+
  **Sensors:** - handles the responsibility of collecting vital signs and life activity data from patients.
+ 
  **Recorder:** - ensures the reception and secure storage of sensor data, preventing any loss or misplacement.
+ 
  **Monitor:** - displays monitored data for medical personnel, providing real-time insights into patient status.
+ 
  **Analyzer:** - responsible for analyzing data and detecting anomalies based on predefined rules.
+ 
  **Alert:** - manages the sending and delivery of notifications to the relevant systems based on identified issues.
 
 <img src="images/7.png" />
