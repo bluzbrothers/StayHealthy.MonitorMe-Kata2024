@@ -4,3 +4,4 @@
 ![US3_4.jpg](images%2FUS3_4.jpg)
 
 ## Sequence diagram
+![snapshot_sequence.jpg](images%2Fsnapshot_sequence.jpg)
