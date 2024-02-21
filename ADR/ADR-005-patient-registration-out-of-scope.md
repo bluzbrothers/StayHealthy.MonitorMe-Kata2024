@@ -1,4 +1,4 @@
-# ADR-006: Sensor Bounded Context
+# ADR-005: Patient Registration Out of Scope
 
 ## Date:
 2024-02-21
@@ -7,15 +7,15 @@
 Accepted
 
 ## Context:
-The "MonitorMe" project, focused on patient monitoring, encountered the need to address the bounded context of sensors after implementing event sourcing.
+During the event storming session, a business need emerged for patient registration and linking sensors to patients. The decision is to keep this functionality outside the monitor me system's scope. The consequences are that the system under development must align with an existing solution. Additionally, a positive aspect is that there is no need to implement this within the project scope.
 
 ## Decision:
-Decision ADR-007 is to create a separate bounded context for sensors, responsible for delivering data to the system. In response to a client inquiry, it was clarified that the system does not handle the sensor context. The advantage of this decision is that hardware responsibilities are kept outside the scope of this system. However, a drawback is the lack of a known protocol, necessitating the assumption that data will be streamed to the MonitorMe system.
+The decision is to exclude patient registration and sensor-patient linkage from the system scope.
 
 ## Consequences:
 ### Pros:
-- Clear separation of concerns, with hardware responsibilities external to the system.
-- Avoidance of direct involvement with sensor context.
+- Seamless alignment with an existing solution.
+- Avoidance of implementing additional features within the project scope.
 
 ### Cons:
-- Absence of a defined protocol, requiring the assumption of data streaming to the MonitorMe system.
+- The need for the system to adapt to an external solution.
