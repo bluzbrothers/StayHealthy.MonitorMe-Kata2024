@@ -81,8 +81,8 @@ In this phase, bounded contexts:
 - continuously oversees patient data to ensure it remains within safe health parameters.
 - identifies critical conditions that require immediate attention.
 
-6. Notification
-- generates and sends alerts and notifications to healthcare providers based on analysis results.
+6. Alert
+- generates and sends alerts and notifications to nurse monitors or mobile devices based on analysis results.
 - ensures timely intervention by medical staff in response to patient health changes.
 
 <img src="images/5.png" />
