@@ -81,6 +81,9 @@ The team opted to create a [C3 component diagram](C4/C3-components.md) for the V
 
 <img src="C4/images/c3-analyzer.png" />
 
+## Thinking about deployment
+<img src="Deployment/images/kubernetes.png">
+
 ## Postponed decisions or well-known issues
 
  | Functionality                          | Description                                                                                                                                                                                                                                                                                                      |
