@@ -1,3 +1,4 @@
+# Team topology
 Based on the Team Topologies and the structure of MonitorMe we designed a team composition that consists of two stream-aligned teams and one platform team. Here's how the teams can be structured:
 
 <img src="./images/team-topology.png" />

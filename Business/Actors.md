@@ -1,3 +1,7 @@
+<img src="images/monitorMe2.png">
+
+# Actors
+
 ## Medical Professionals:
 
 - These include doctors, nurses, and other healthcare professionals responsible for monitoring patients' vital signs, analyzing data, and responding to alerts.

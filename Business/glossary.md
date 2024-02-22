@@ -1,3 +1,5 @@
+# Glossary
+
 - **MonitorMe**: The medical patient monitoring system developed by StayHealthy, Inc., designed to monitor patients' vital signs and provide real-time alerts to medical professionals.
 
 - **Vital Signs**: Key physiological measurements used to assess a patient's health status, including heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and sleep status.

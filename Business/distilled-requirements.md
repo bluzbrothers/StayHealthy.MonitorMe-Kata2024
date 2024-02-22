@@ -1,4 +1,4 @@
-### Functional Requirements
+# Distilled Requirements
 
 Functional requirements are determined based on the input from stakeholders. [requirements](requirements.md).
 

@@ -1,4 +1,4 @@
-# MonitorMe
+<img src="images/monitorMe2.png">
 
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
 
