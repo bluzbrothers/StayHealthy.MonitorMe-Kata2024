@@ -103,3 +103,9 @@ The final deployment diagram looks like the diagram below. If you want to see de
  | Push notifications to the mobile phone | Push notifications are a standard solution for delivering real-time alerts to users' devices. However, their implementation falls outside the scope of the current architecture proposal, which focuses on defining system components. Integrating push notification functionality will be addressed separately. |
  | VPN to the external systems            | To decide in further steps whether establishing VPN for access to the MedicalData is worth considering for enhanced security and privacy. On this stage, it doesn't play significant role and this decision can be taken later.                                                                                  |
  | The hardware                           | Computers, servers, display screens should follow the newest commercial standards and parameters.                                                                                                                                                                                                                |
+
+## Team Topologies
+
+<img src="./Business/images/team-topology.png" />
+
+Team Topologies is an approach to organizational design and team structures that optimizes software delivery and organizational effectiveness. It provides principles and patterns for designing teams based on software architecture and organizational goals. For a detailed description, refer to the [Team Topologies Overview](./Business/TeamsTopology.md) file.

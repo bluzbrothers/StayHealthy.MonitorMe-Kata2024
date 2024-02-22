@@ -1,4 +1,7 @@
 # Team topology
+
+Team Topologies represents a modern method for designing organizational structures and team setups with the goal of enhancing software delivery and organizational efficiency. It presents a set of guidelines and models for shaping teams according to the requirements of the software architecture and the organization's objectives. By aligning team structures with the system architecture, Team Topologies encourages improved communication, cooperation, and independence among teams, leading to quicker delivery of top-notch software. This approach underscores the significance of establishing clear boundaries, roles, and duties within teams, while also fostering a culture of learning and ongoing enhancement. Ultimately, Team Topologies provides a framework for constructing adaptable, robust organizations capable of excelling in today's intricate and ever-changing software development environment.
+
 Based on the Team Topologies and the structure of MonitorMe we designed a team composition that consists of two stream-aligned teams and one platform team. Here's how the teams can be structured:
 
 <img src="./images/team-topology.png" />
