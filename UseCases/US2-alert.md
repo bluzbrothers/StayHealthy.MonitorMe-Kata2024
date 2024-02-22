@@ -2,7 +2,7 @@
 In that scenario, the data is being analyzed, and if an anomaly is detected by applying a set of globally defined rules, an alert is triggered and simultaneously sent to the nurse station's Consolidated Screen and to the medical professionals' smartphones. 
 
 ## Involved containers
-![US2.jpg](images%2FUS2.jpg)
+![US2.png](images%2FUS2.png)
 
 Involved containers:
 - Vital Sign Recorder

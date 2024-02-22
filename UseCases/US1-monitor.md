@@ -5,7 +5,7 @@ This use case is about gathering sensor data and streaming it to the nurse conso
 
 
 ## Involved containers
-![US1.jpg](images%2FUS1.jpg)
+![US1.png](images%2FUS1.png)
 
 Involved containers:
 - Vital Sign Recorder
