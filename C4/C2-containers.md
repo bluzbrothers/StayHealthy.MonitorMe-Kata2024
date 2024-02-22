@@ -5,7 +5,7 @@ C2 in the C4 model, referred to as the Container view, delves deeper into the in
 ## Vital Sign Recorder
 Vital Sing Recorder is responsible for:
 * storing received raw vital sign sensor data
-* forward received data to Kafka streaming platform
+* forward received data to Kafka streaming platform [ADR-015](/ADR/ADR-015-event-broker-kafka.md)
 
 
 ### Vital Sign Analyzer
