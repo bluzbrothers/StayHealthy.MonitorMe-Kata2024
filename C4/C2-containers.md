@@ -27,7 +27,7 @@ The team opted to create a [C3 component diagram](C3-components.md) for the Vita
 ## Vital Sign Alert
 Vital Sign Alert component is responsible for sending alerts through configured channels. 
 
-These components listen on the alerts topic and in case of new message pushes notification to mobile phone. (ADR-016)[/ADR/ADR-016-separation-of-data-transmission-responsibilities.md]
+These components listen on the alerts topic and in case of new message pushes notification to mobile phone. [ADR-016](/ADR/ADR-016-separation-of-data-transmission-responsibilities.md)
 
 
 
