@@ -25,7 +25,7 @@ MonitorMe is an advanced medical patient monitoring system created by StayHealth
 ## *MonitorMe* requirements
 Upon receiving the [requirements](Business/Requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
-We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/DistilledRequirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
+We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/DistilledRequirements.md). Frankly speaking, all these requirements can be covered by the four main data flows:
 * Collecting data from sensors and visualizing them on the nurse's station.
 * Alerting the medical staff on both mobile devices and the nurse's station when anomalies are detected based on defined and easily extendable rules.
 * Browsing the patient's vital signs (maximum 24 hours).
