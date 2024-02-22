@@ -51,7 +51,7 @@ Based on the requirements and our expertise, the following top three characteris
 
 
 ## Choosing the architecture
-Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case.
+Having identified the top three driving characteristics, we can simply choose the architecture style that best fits our business case [ADR-012](/ADR/ADR-012-event-driven-architecture.md)
 <img src="ArchitectureCharacteristics/images/chosen-architecture.png" />
 
 
