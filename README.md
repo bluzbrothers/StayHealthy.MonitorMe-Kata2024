@@ -76,6 +76,13 @@ The picture below show the final Container (C2) view.
 
 The whole description of the Context view can be found [here](/C4/C2-containers.md).
 
+### Important use cases visualized on sequence diagrams
+There were identified four main system use cases:
+* [Monitoring patients by nurse stations](UseCases/US1-monitor.md)
+* [Alerting when anomalies detected](UseCases/US2-alert.md)
+* [Taking a snapshot from the nurse station](UseCases/US3-snapshot.md)
+* [Reviewing historical data from the nurse station](UseCases/US4-review-data.md)
+
 ## Thinking about deployment
 The final deployment diagram looks like the diagram below. If you want to see details, go to the [Deployment section](Deployment/deployment.md).
 
