@@ -15,14 +15,14 @@ MonitorMe is an advanced medical patient monitoring system created by StayHealth
 
 
 
-## *MonitorMe* Overview
+## Company Overview
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
 MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance analytics-alert response times, patient health problem analytics, patient recovery analysis, and so on.
 MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other health professionals to record and track a patient's health records with guaranteed partitioning between patient records.
 StayHealthy, Inc. is now expanding into the medical monitoring market and is in need of a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
 
-## The requirements
+## *MonitorMe* requirements
 Upon receiving the [requirements](Business/requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
 We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
