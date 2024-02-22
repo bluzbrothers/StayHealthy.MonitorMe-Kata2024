@@ -1,6 +1,6 @@
 # Container view (C2)
 C2 in the C4 model, referred to as the Container view, delves deeper into the internal components of the system, showcasing the various containers or application modules and their relationships. It provides a detailed breakdown of how the system is structured internally, including the different types of containers such as services, databases, user interfaces, and external interfaces. This view allows stakeholders to understand the internal architecture of the system and how its components interact to fulfill its functionality.
-<img src="images/c2.jpg">
+<img src="images/c2.png">
 
 ## Vital Sign Recorder
 Vital Sing Recorder is responsible for:

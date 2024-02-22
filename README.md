@@ -72,7 +72,7 @@ This approach enables us to gain a comprehensive understanding of the system arc
 
 The picture below show the final Container (C2) view.
 
-<img src="C4/images/c2.jpg" />
+<img src="C4/images/c2.png" />
 
 The whole description of the Context view can be found [here](/C4/C2-containers.md).
 
