@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-During the event storming session, a business need emerged for patient registration and linking sensors to patients. The decision is to keep this functionality outside the monitor me system's scope. The consequences are that the system under development must align with an existing solution. Additionally, a positive aspect is that there is no need to implement this within the project scope.
+During the event storming session, a business need emerged for patient registration and linking sensors to patients. The decision is to keep this functionality as a supporting sub-domain. 
 
 ## Decision:
-The decision is to exclude patient registration and sensor-patient linkage from the system scope.
+The decision is Patient registration is a supporting sub-domain. It will be a part of the system, but we won't be focusing on it
 
 ## Consequences:
 ### Pros:
