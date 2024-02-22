@@ -9,6 +9,8 @@
 * Sebastian Dąbkowski &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/sebastiandabkowski/)
 
 ## Introduction
+<img src="Business/images/monitorMe2.png">
+
 Welcome to the architectural story of MonitorMe - the O'Reilly Winter 2024 Architectural Kata.
 
 MonitorMe is an advanced medical patient monitoring system created by StayHealthy, Inc. As the healthcare industry continues to evolve, the demand for sophisticated monitoring solutions becomes increasingly important. MonitorMe meets this demand by providing a comprehensive platform that continuously monitors patients' vital signs, analyzes data for potential issues, and notifies medical professionals when necessary. This architectural narrative offers a detailed exploration of MonitorMe's system architecture, emphasizing its main components, data flow, communication methods, and adherence to non-functional requirements. By understanding MonitorMe's architecture, stakeholders and the development team can gain insight into how the system functions, its alignment with business objectives, and its potential to improve patient care in healthcare environments. Let's explore the architectural complexities of MonitorMe to reveal its innovative design and capabilities. 
