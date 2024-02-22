@@ -20,6 +20,7 @@ Based on the Team Topologies and the structure of MonitorMe we designed a team c
 ### Responsibilities:
 - Develops and maintains components responsible for generating and delivering alerts to nurse stations and mobile devices.
 - Implements features for detecting anomalies in vital sign data and triggering alerts.
+- Implements and maintains features responsible for patient registration process and ensures accurate recording of patient information. 
 
 ### Skills and Expertise:
 - Software engineers with expertise in event-driven architectures, notification systems, and alerting mechanisms.
