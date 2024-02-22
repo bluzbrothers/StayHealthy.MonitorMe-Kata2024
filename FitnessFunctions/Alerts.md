@@ -1,6 +1,6 @@
 # Alerts flow
 Ensuring that alerts are promptly delivered to medical professionals is of utmost importance, especially when anomalies are detected. 
-To achieve a high level of availability, we have implemented a redundant alert delivery system using two channels:
+To achieve a high level of availability, we have implemented a redundant alert delivery system using two channels [ADR-016](/ADR/ADR-016-separation-of-data-transmission-responsibilities.md):
 * **Push notifications:** Alerts are sent directly to medical professionals' mobile devices via an internet connection. This ensures immediate notification and allows for quick response, regardless of their location.
 * **Streamer process:** Alerts are also processed by the Streamer and displayed on the Nurse Station within the local infrastructure. This provides an additional layer of redundancy, ensuring that alerts are accessible even if internet connectivity is disrupted.
 
