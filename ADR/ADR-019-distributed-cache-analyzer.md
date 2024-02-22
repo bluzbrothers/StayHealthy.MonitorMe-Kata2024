@@ -1,4 +1,4 @@
-# ADR-019: Implementing Redis as Distributed Cache for Analyzer Data Storage and Recovery
+# ADR-019: Implementing Distributed Cache for Analyzer Data Storage and Recovery
 
 ## Date:
 2024-02-21
