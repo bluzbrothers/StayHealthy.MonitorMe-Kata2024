@@ -84,7 +84,7 @@ Then, during requirements distillation we assigned the requirements to the chara
 
 
 it is challenging to narrow down to only three characteristics, but it is important to note that *Availability* is contingent upon both *Performance* and *Elasticity*. Moreover Availability is not considered in the selection of the system architecture as it is not specified in the template. Availability will be ensured at the infrastructure level. [ADR-010](/ADR/ADR-010-availability-not-used-for-choosing-system-architecture.md)
-If both are satisfactory, the system should remain available. Consequently, the final Top 3 are *Evolvability*, *Performance*, and *Elasticity*.
+If both are satisfactory, the system should remain available. Consequently, the final Top 3 are *Evolvability*, *Performance*, and *Elasticity* [ADR-011](/ADR/ADR-011-top3-characteristics.md).
 
 
 <img src="images/top3-final.png" />
