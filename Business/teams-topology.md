@@ -23,3 +23,20 @@ Based on the Team Topologies and the structure of MonitorMe we designed a team c
 ### Skills and Expertise:
 - Software engineers with expertise in event-driven architectures, notification systems, and alerting mechanisms.
 - Proficiency in designing fault-tolerant and scalable systems.
+
+## - Platform Team
+
+### Responsibilities:
+- Develops and maintains the core platform components shared across the system.
+- Provides infrastructure, tooling, and support services for stream-aligned teams.
+- Ensures architectural integrity, scalability, and reliability of the overall system.
+
+### Skills and Expertise:
+- Software architects with expertise in building distributed systems, microservices architecture, and cloud-native technologies.
+- DevOps engineers proficient in automation, deployment, and monitoring of cloud infrastructure.
+
+
+## Assumptions we made:
+- Follow the principles of Conway's Law, ensuring that team structures reflect the system's architecture
+- Teams are cross-functional, comprising members with diverse skills necessary for end-to-end delivery of features.
+- Team autonomy is encouraged, allowing teams to make decisions independently within their respective domains while aligning with overall system goals.
