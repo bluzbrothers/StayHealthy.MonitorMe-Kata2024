@@ -1,6 +1,6 @@
 # Distilled Requirements
 
-The identification of functional requirements is based on the input provided by stakeholders. [requirements](requirements.md).
+The identification of functional requirements is based on the input provided by stakeholders. [requirements](Requirements.md).
 
 | #    | Requirement   |                                                                                                                                        
 |----|-------------|

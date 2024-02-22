@@ -23,9 +23,9 @@ MonitorMe is an advanced medical patient monitoring system created by StayHealth
 
 
 ## *MonitorMe* requirements
-Upon receiving the [requirements](Business/requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
+Upon receiving the [requirements](Business/Requirements.md) from the stakeholders, our team proceeded to analyze and distill the information provided. This involved a thorough examination and refinement process to extract the essential elements and key details. 
 By conducting this requirements distillation, we aimed to ensure a clear understanding of the project scope and objectives, enabling us to proceed with the development process effectively and efficiently. 
-We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/distilled-requirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
+We came up with the [business overview](Business/Overview.md) and  [distilled requirements](Business/DistilledRequirements.md). Frankly speaking, all these requirements can be covered by the three main data flows:
 * Collecting data from sensors and visualizing them on the nurse's station.
 * Alerting the medical staff on both mobile devices and the nurse's station when anomalies are detected based on defined and easily extendable rules.
 * Browsing the patient's vital signs (maximum 24 hours).
@@ -42,7 +42,7 @@ Here are the results:
 
 
 ## Identifying architecture characteristics
-The [Business Requirements](Business/distilled-requirements.md) and [Event Storming](EventStorming/EventStorming.md) results have led us to delve deeper into the project and [identify crucial architectural characteristics](ArchitectureCharacteristics/characteristics.md) that are highly important for the Monitor Me system.
+The [Business Requirements](Business/DistilledRequirements.md) and [Event Storming](EventStorming/EventStorming.md) results have led us to delve deeper into the project and [identify crucial architectural characteristics](ArchitectureCharacteristics/Characteristics.md) that are highly important for the Monitor Me system.
 
 Choosing the right architectural characteristics is a critical process that lays the foundation for designing an effective architecture and defining efficient data flow within a system. By carefully considering these characteristics, one can determine the most suitable software and hardware components to effectively fulfill the system requirements. This ensures not only the proper functioning of the system but also its scalability, maintainability, and overall performance.
 Based on the requirements and our expertise, the following top three characteristics have been identified:
@@ -84,16 +84,16 @@ There were identified four main system use cases:
 * [Reviewing historical data from the nurse station](UseCases/US4-review-data.md)
 
 ## Thinking about deployment
-The final deployment diagram looks like the diagram below. If you want to see details, go to the [Deployment section](Deployment/deployment.md).
+The final deployment diagram looks like the diagram below. If you want to see details, go to the [Deployment section](Deployment/Deployment.md).
 
 <img src="Deployment/images/kubernetes.png">
 
 ## Fitness functions
 | Function                                                 | Goal                                                                                                                                                                                                                                | Result      |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| [Infrastructure validation](FitnessFunctions/sizing.md)  | The goal is to check whether business goal to achieve an average response time<br/>of 1 second or less for displaying vital signs.                                                                                                  | **Success** |
-| [Guarantee to receive alert](FitnessFunctions/alerts.md) | Medical professionals receive alert push notifications of a potential problem based on raw data analysis <br/>to a StayHeathy mobile app on their smart phone as well as the consolidated monitoring screen in each nurses station. | **Success** |
-| [Fail-over](FitnessFunctions/failover.md)                | If any of vital sign device (or software) fails, MonitorMe must still function for other vital sign monitoring (monitor, record, analyze, and alert).                                                                               | **Success** |
+| [Infrastructure validation](FitnessFunctions/Sizing.md)  | The goal is to check whether business goal to achieve an average response time<br/>of 1 second or less for displaying vital signs.                                                                                                  | **Success** |
+| [Guarantee to receive alert](FitnessFunctions/Alerts.md) | Medical professionals receive alert push notifications of a potential problem based on raw data analysis <br/>to a StayHeathy mobile app on their smart phone as well as the consolidated monitoring screen in each nurses station. | **Success** |
+| [Fail-over](FitnessFunctions/Failover.md)                | If any of vital sign device (or software) fails, MonitorMe must still function for other vital sign monitoring (monitor, record, analyze, and alert).                                                                               | **Success** |
 
 ## Postponed decisions or well-known issues
 
