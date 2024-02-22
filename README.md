@@ -106,6 +106,6 @@ The final deployment diagram looks like the diagram below. If you want to see de
 
 ## Team Topologies
 
-<img src="./Business/images/team-topology.png" />
+<img src="./Business/images/teamsTopology.png" />
 
 Team Topologies is an approach to organizational design and team structures that optimizes software delivery and organizational effectiveness. It provides principles and patterns for designing teams based on software architecture and organizational goals. For a detailed description, refer to the [Team Topologies Overview](./Business/TeamsTopology.md) file.
