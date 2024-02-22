@@ -58,7 +58,7 @@ Then, we can simply state that the Streamer service also requires *320ms*.
 |---------------|------------|
 | Recorder      | 320ms      |
 | Streamer      | 320ms      |
-| Save tp DB    | 16 ms      |
+| Save to DB    | 16 ms      |
 | Send to Kafka | 5ms        |
 | LAN           | 32ms       |
 | **Total**     | **693ms**  |
