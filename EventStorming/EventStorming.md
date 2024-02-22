@@ -120,14 +120,14 @@ Available Bounded Contexts:
 <img src="images/7.png" />
 
 Based on the requirements and responses from the email, the following steps have been taken:
-1. **Patient Registration:** - defined as a part of the system outside the scope of this solution, under ADR-005.
-2. **Sensors:** - Also identified as a system component to be designed outside the scope of this solution, as outlined in ADR-006.
+1. **Patient Registration:** - is part of Monitor Me, but based on the client's response, we consider it as a supporting sub-domain. It will be a part of the system, but we won't be focusing on it." [ADR-005](/ADR/ADR-005-patient-registration-out-of-scope.md).
+2. **Sensors:** - Also identified as a system component to be designed outside the scope of this solution, as outlined in [ADR-006](/ADR/ADR-006-sensor-out-of-scope.md).
 
 Within the scope of this solution, the following contexts have been established: Recorder, Analyzer, Monitor, and Alert.
 
 <img src="images/7.1.png" />
 
-Transitioning from business contexts to component naming, it was realized that the term "Monitor" wasn't a suitable technical name for the responsibilities of this component. After careful consideration, we decided on a more fitting name: "Stramer." This decision was formalized in ADR-007, determining it as a more accurate name. To provide a clearer understanding of each component's business significance, the prefix "Vital Sign" was added. Consequently, the final set of components comprises:
+Transitioning from business contexts to component naming, it was realized that the term "Monitor" wasn't a suitable technical name for the responsibilities of this component. After careful consideration, we decided on a more fitting name: "Stramer." This decision was formalized in [ADR-007](/ADR/ADR-007-component-naming.md) , determining it as a more accurate name. To provide a clearer understanding of each component's business significance, the prefix "Vital Sign" was added. Consequently, the final set of components comprises:
  - Vital Sign Recorder,
  - Vital Sign Analyzer,
  - Vital Sign Stramer,
