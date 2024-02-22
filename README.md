@@ -106,7 +106,7 @@ The final deployment diagram looks like the diagram below. If you want to see de
  | Patient registration                   | The next iteration should show how to register  patients, assign sensors to them and map Patients to the MyMedicalData                                                                                                                                                                                           |
 
 ## Team Topologies
+Team Topologies is an approach to organizational design and team structures that optimizes software delivery and organizational effectiveness. It provides principles and patterns for designing teams based on software architecture and organizational goals. For a detailed description, refer to the [Team Topologies Overview](./Business/TeamsTopology.md) file.
 
 <img src="./Business/images/teamsTopology.png" />
 
-Team Topologies is an approach to organizational design and team structures that optimizes software delivery and organizational effectiveness. It provides principles and patterns for designing teams based on software architecture and organizational goals. For a detailed description, refer to the [Team Topologies Overview](./Business/TeamsTopology.md) file.
