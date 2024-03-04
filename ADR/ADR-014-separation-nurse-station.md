@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to define the role of the "Nurse Station" application within the architectural design for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/C4/C1-context.md#context-view-c1)
+
 ## Decision:
 The decision is that the "Nurse Station" application is not considered a core part of the architectural design. Instead, it is treated as a separate application utilizing the system for data display. The "Nurse Station" application will implement data visualization through a web socket, streaming real-time information.
 
