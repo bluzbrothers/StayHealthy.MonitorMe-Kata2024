@@ -8,6 +8,7 @@ Accepted
 ## Context:
 In the context of our project, managing data storage efficiently while adhering to privacy regulations and system performance requirements is crucial. The volume of data generated and collected by our system, particularly time-series data, necessitates a clear data retention policy to balance between data availability, compliance, and resource optimization.
 
+[context link out](/EventStorming/EventStorming.md#6-adding-policy)
 ## Decision:
 We have decided to implement a data retention policy within our database that mandates the deletion of data after a 24-hour period. This decision is grounded in the following justifications:
 
