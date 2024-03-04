@@ -20,6 +20,8 @@ Performance
 Configurability
 Scalability
 
+[context link out](/ArchitectureCharacteristics/Characteristics.md#choosing-the-top-7-characteristics)
+
 ## Decision:
 Scalability has been downplayed. The team has emphasized that all relevant obligations have been specified in the requirements. The system will be installed on-premises, and no significant increase in traffic is anticipated with the addition of new sensors. Manual intervention, such as adding a new node or hardware, is possible for system expansion.
 
