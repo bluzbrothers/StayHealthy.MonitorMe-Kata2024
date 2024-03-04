@@ -9,6 +9,7 @@ Accepted
 ## Context:
 The "MonitorMe" project, focused on patient monitoring, encountered the need to address the bounded context of sensors after implementing event sourcing.
 
+[context link out]([/EventStorming/EventStorming.md#summary)
 ## Decision:
 Decision is to create a separate bounded context for sensors, responsible for delivering data to the system. In response to a client inquiry, it was clarified that the system does not handle the sensor context. The advantage of this decision is that hardware responsibilities are kept outside the scope of this system. However, a drawback is the lack of a known protocol, necessitating the assumption that data will be streamed to the MonitorMe system.
 
