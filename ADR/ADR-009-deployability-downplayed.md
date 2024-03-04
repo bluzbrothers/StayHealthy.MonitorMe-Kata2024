@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to define the architectural principles for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/ArchitectureCharacteristics/Characteristics.md#choosing-the-top-7-characteristics)
+
 ## Decision:
 The decision is to exclude deployability as a critical characteristic. The context specifies that the system will be installed locally, serving as a single solution for a hospital.
 
