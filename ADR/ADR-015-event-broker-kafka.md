@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to select a suitable event broker for the "MonitorMe" project, a patient monitoring system, within the chosen event-driven architecture.
 
+[context link out](/C4/C2-containers.md#vital-sign-recorder)
+
 ## Decision:
 The decision is to adopt Apache Kafka as the event broker for efficient event distribution. This choice is driven by its compatibility with the event-driven architecture, providing low latency and high scalability, meeting the project's requirements effectively.
 
