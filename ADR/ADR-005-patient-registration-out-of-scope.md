@@ -9,7 +9,7 @@ Accepted
 ## Context:
 During the event storming session, a business need emerged for patient registration and linking sensors to patients. The decision is to keep this functionality as a supporting sub-domain. 
 
-[context link out]([/EventStorming/EventStorming.md#summary)
+[context link out](/EventStorming/EventStorming.md#summary)
 
 ## Decision:
 The decision is Patient registration is a supporting sub-domain. It will be a part of the system, but we won't be focusing on it
