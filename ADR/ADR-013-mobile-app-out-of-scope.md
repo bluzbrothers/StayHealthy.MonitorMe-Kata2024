@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to clarify the role of the mobile application in the architectural design for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/C4/C1-context.md#context-view-c1)
+
 ## Decision:
 The decision is that the mobile application will not be considered part of the architectural design. Instead, it will receive push notifications and subscribe to a notification system, such as Firebase. The design and development of the mobile application will be handled by a separate team, guided by client requirements.
 
