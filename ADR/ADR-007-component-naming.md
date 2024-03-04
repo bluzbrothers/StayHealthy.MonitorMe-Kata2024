@@ -9,7 +9,7 @@ Accepted
 ## Context:
 The "MonitorMe" project, focused on patient monitoring, encountered the need to address four bounded contexts after an event storming session: Recorder, Monitor, Analyzer, and Alert.
 
-[context link out]([/EventStorming/EventStorming.md#summary)
+[context link out](/EventStorming/EventStorming.md#summary)
 
 ## Decision:
 The decision is to refine the component naming convention by introducing "Vital Sign" as a prefix, e.g., "Vital Sign Recorder." Additionally, for better clarity of the Monitor's responsibility, its name is changed to "Streamer."
