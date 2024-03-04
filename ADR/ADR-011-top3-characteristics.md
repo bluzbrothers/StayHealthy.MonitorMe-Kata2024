@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to prioritize the three most crucial architectural characteristics for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/ArchitectureCharacteristics/Characteristics.md#elasticity)
+
 ## Decision:
 Based on a diagram mapping characteristics to components, the decision is to identify Evolvability, Performance, and Elasticity as the top three architectural characteristics for the "MonitorMe" system.
 
