@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to address data storage and recovery concerns in the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/C4/C2-containers.md#vital-sign-analyzer)
+
 ## Decision:
 The decision is to implement a distributed cache, such as Redis, for the analyzer to store data. This is crucial to enable new instances to reconstruct rules based on the most recent data in case of issues with the existing analyzer instance.
 
