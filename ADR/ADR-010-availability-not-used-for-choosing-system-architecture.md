@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to determine the system architecture for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/ArchitectureCharacteristics/Characteristics.md#elasticity)
+
 ## Decision:
 The decision is to exclude availability as a criterion in the selection of the system architecture. The template does not include availability as a characteristic for consideration. The rationale is that availability should be addressed outside of the system architecture, ensuring it is maintained at the instance level, such as through the duplication of critical instances.
 
