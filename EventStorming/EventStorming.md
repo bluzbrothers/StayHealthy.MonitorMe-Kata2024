@@ -127,10 +127,10 @@ Within the scope of this solution, the following contexts have been established:
 
 <img src="images/7.1.png" />
 
-Transitioning from business contexts to component naming, it was realized that the term "Monitor" wasn't a suitable technical name for the responsibilities of this component. After careful consideration, we decided on a more fitting name: "Stramer." This decision was formalized in [ADR-007](/ADR/ADR-007-component-naming.md) , determining it as a more accurate name. To provide a clearer understanding of each component's business significance, the prefix "Vital Sign" was added. Consequently, the final set of components comprises:
+Transitioning from business contexts to component naming, it was realized that the term "Monitor" wasn't a suitable technical name for the responsibilities of this component. After careful consideration, we decided on a more fitting name: "Streamer." This decision was formalized in [ADR-007](/ADR/ADR-007-component-naming.md) , determining it as a more accurate name. To provide a clearer understanding of each component's business significance, the prefix "Vital Sign" was added. Consequently, the final set of components comprises:
  - Vital Sign Recorder,
  - Vital Sign Analyzer,
- - Vital Sign Stramer,
+ - Vital Sign Streamer,
  - Vital Sign Alert. 
 
 <img src="images/components.png" />
