@@ -25,12 +25,15 @@ If we assume, that maximum patients number is 500 and the single signal can util
 This values shows us, that system MUST be ready to process 4000 signals in one second and network must be prepared to transfer at least 4MB/s.
 
 ### Estimated database write time utilization.
+In order to validate a storing process, we have to examine a specific database.
+For this Fitness Function, it has been chosen the [Influx DB](https://www.influxdata.com/), but the final decision which database to use, will be taken later,
 Based on [following benchmark](https://medium.com/machbase/performance-testing-and-comparison-of-time-series-databases-influxdb-and-machbase-c35b2fa8d91a)
 we can assume that:
 * Influx DB can save at least 237871 events/s
 * In our case, we need to store 4000 events/s, so the storing process shouldn't be longer than **16ms**
 
-### Publishing to Kafka
+### Publishing to Streaming Platform
+As the previous calculation, here was chosen [Apache Kafka](https://kafka.apache.org/) solution as a streaming platform and again - the final decision will be taken later.
 Based on [AWS benchmark](https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-your-apache-kafka-clusters-to-optimize-performance-and-cost/)
 
 <img src="images/kafka-benchmark.png"> 
@@ -40,26 +43,26 @@ considering the machine 16GB RAM, 4CPU and fast SSD disk (equivalent of m5.xlarg
 ### LAN throughput
 If we assume that the hospital has a 1Gb/s LAN, transmitting 4MB of data should take approximately **32 ms**.
 
-### Streamer
-If we assume that we have 3 Recorder services:
-* Each instance must handle approximately 8.33 connections.
+### Vital Sign Streamer
+If we assume that we have 3 instances of Vital Sign Streamer services:
+* Each instance must handle approximately 8.33 connections (25 nurse stations / 3 services)
 * Let's assume that each connection handles requests on separate threads (without considering processor context switching).
-  * 1 connection should handle 20 patients, which means 160 signals per second.
+  * 1 connection should handle 20 patients, which means 160 signals per second (20 connections x 8 sensors).
   * If we assume that processing 1 signal takes 2 milliseconds, then the time needed to process signals on 1 connection is *320ms*.
 
-### Recorded
+### Vital Sign Recorder
 To simplify calculations, we can assume that the amount of data is exactly the same as the Streamer process.
-Then, we can simply state that the Streamer service also requires *320ms*.
+Then, we can simply state that the same set of 3 Vital Sign Recorder services also requires *320ms*.
 
 
 ### Final calculation (from sensor to nurse station)
 
-| Step          | Total Time |
-|---------------|------------|
-| Recorder      | 320ms      |
-| Streamer      | 320ms      |
-| Save to DB    | 16 ms      |
-| Send to Kafka | 5ms        |
-| LAN           | 32ms       |
-| **Total**     | **693ms**  |
+| Step                              | Total Time |
+|-----------------------------------|------------|
+| Vital Sign Recorder               | 320ms      |
+| Vital Sign Streamer               | 320ms      |
+| Save to DB                        | 16ms       |
+| Send to Streaming Platform        | 5ms        |
+| Local Network LAN Data Transfer   | 32ms       |
+| **Total**                         | **693ms**  |
 
