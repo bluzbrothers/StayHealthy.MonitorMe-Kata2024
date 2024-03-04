@@ -9,6 +9,8 @@ Accepted
 ## Context:
 The decision is needed to select the architectural style for the "MonitorMe" project, a patient monitoring system.
 
+[context link out](README.md#choosing-the-architecture)
+
 ## Decision:
 Based on the evaluation criteria of elasticity, evolvability, and performance, an event-driven architecture is chosen. The decision is supported by a rating of 14 stars according to the selection schema for architectural styles.
 
