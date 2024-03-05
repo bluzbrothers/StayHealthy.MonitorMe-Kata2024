@@ -62,7 +62,7 @@ By utilizing the C4 approach, specifically focusing on the Context (C1) and Cont
 The Context view allows us to understand the high-level relationships and interactions between the system and its external components or systems. 
 All architectural decisions are documented as the Architecture Decision Records (ADRs).
 
-<img src="C4/images/c1.png" />
+<img src="C4/images/c1.jpg" />
 
 The whole description of the Context view can be found [here](/C4/C1-context.md).
 
@@ -72,7 +72,7 @@ This approach enables us to gain a comprehensive understanding of the system arc
 
 The picture below show the final Container (C2) view.
 
-<img src="C4/images/c2.png" />
+<img src="C4/images/c2.jpg" />
 
 The whole description of the Context view can be found [here](/C4/C2-containers.md).
 
@@ -86,7 +86,7 @@ There were identified four main system use cases:
 ## Thinking about deployment
 The final deployment diagram looks like the diagram below. If you want to see details, go to the [Deployment section](Deployment/Deployment.md).
 
-<img src="Deployment/images/kubernetes.png">
+<img src="Deployment/images/kubernetes.jpg">
 
 ## Fitness functions
 | Function                                                 | Goal                                                                                                                                                                                                                                | Characteristic to test        | Result      |
