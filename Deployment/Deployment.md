@@ -3,7 +3,7 @@
 ## App on Kubernetes
 The picture below shows the proposed deployment diagram.
 
-<img src="images/kubernetes.png" />
+<img src="images/kubernetes.jpg" />
 
 
 In general, considering the critical importance of system availability and performance within our architecture, we have made the strategic decision to deploy Kubernetes on our on-premises infrastructure. Kubernetes offers a solution that aligns with our objectives of maintaining high availability and optimizing performance. 
@@ -17,7 +17,7 @@ Detailed description:
 * At least 3 Pods should be available all the time to keep system availability
 
 
-**Important note!** The Kafka and databases are currently depicted as part of the Kubernetes deployment; however, it is possible to modify this configuration in subsequent steps to exclude them and instead install them directly on the Virtual Machines. 
+**Important note!** The Message Streaming Platform and databases are currently depicted as part of the Kubernetes deployment; however, it is possible to modify this configuration in subsequent steps to exclude them and instead install them directly on the Virtual Machines. 
 
 ## Kubernetes on-premise infrastructure
 

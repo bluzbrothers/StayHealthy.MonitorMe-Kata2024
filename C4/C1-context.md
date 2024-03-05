@@ -1,7 +1,7 @@
 # Context view (C1)
 C1 in the C4 model, known as the Context view, offers a bird's-eye perspective of the system, illustrating its external interactions and dependencies. It depicts the system as a single entity surrounded by external actors, systems [ADR-013](/ADR/ADR-013-mobile-app-out-of-scope.md) [ADR-014](/ADR/ADR-014-separation-nurse-station.md), and environments with which it interacts. This view helps stakeholders understand the system's place within its broader ecosystem and the key interactions it has with its surroundings.
 
-<img src="images/c1.png">
+<img src="images/c1.jpg">
 
 In the Context view (C1) of the Monitor Me system, the main components include:
 
