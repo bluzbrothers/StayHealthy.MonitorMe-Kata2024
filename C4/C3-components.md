@@ -4,7 +4,7 @@ In the C4 model, C3 represents the Component view, which focuses on the internal
 ## C3 for Vital Sign Analyzer
 In our specific case, the most crucial and complex component is the Vital Sign Analyzer. The team has decided to thoroughly visualize this component using the C3 level.
 
-<img src="images/c3-analyzer.png">
+<img src="images/c3-analyzer.jpg">
 
 ### The internal flow
 * *The Vital Signs Topic Subscriber* receives each signal from the *Vital Signs Topic* and forwards it to the *Signal Normalizer*.
@@ -13,7 +13,7 @@ In our specific case, the most crucial and complex component is the Vital Sign A
   * If any anomalies are present within the current signal.
   * Whether cached data from different sensors (grouped by patient) analyzed by predefined rules detects anomalies.
   * If anomalies are detected, a message is sent to the Alert Publisher.
-* *The Alert Publisher* publishes the message to the *Alert Topic* on Kafka.
+* *The Alert Publisher* publishes the message to the *Alert Topic* on Message Streaming Platform.
 
 
 ### Supportive domains

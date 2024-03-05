@@ -32,7 +32,7 @@ we can assume that:
 * Influx DB can save at least 237871 events/s
 * In our case, we need to store 4000 events/s, so the storing process shouldn't be longer than **16ms**
 
-### Publishing to Streaming Platform
+### Publishing to Message Streaming Platform
 As the previous calculation, here was chosen [Apache Kafka](https://kafka.apache.org/) solution as a streaming platform and again - the final decision will be taken later.
 Based on [AWS benchmark](https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-your-apache-kafka-clusters-to-optimize-performance-and-cost/)
 
