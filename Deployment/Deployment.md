@@ -25,7 +25,7 @@ The diagram below illustrates the Kubernetes details installed on three separate
 
 <img src="images/kubernetes-on-premise.png">
 
-Our recommendation is to organize the hardware with three (or at least two) independent servers to safeguard against hardware failures.
+Our recommendation is to organize the hardware with three (or at least two) independent servers to safeguard against hardware failures. [ADR-020](/ADR/ADR-020-duplicate-instances-high-availability.md)
 
 **Important note!** the IT Administrator and Monitoring role is not a part of this architectural proposal, but it should be implemented when system is ready.
 
