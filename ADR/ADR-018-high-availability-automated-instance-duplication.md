@@ -9,6 +9,7 @@ Accepted
 ## Context:
 The decision is needed to address the requirement for high availability in the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/Deployment/Deployment.md#app-on-kubernetes)
 ## Decision:
 The decision is to ensure high availability through the duplication of application instances using an orchestrator such as Kubernetes. Additionally, instances will automatically scale up if any become unavailable, eliminating the need for manual intervention by administrators.
 
