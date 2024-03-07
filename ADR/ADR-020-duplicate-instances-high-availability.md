@@ -9,6 +9,7 @@ Accepted
 ## Context:
 The decision is needed to determine the approach to failover instances in the "MonitorMe" project, a patient monitoring system.
 
+[context link out](/Deployment/Deployment.md#kubernetes-on-premise-infrastructure)
 ## Decision:
 The decision is that failover of individual application instances will not be considered. All instances will be duplicated, and it is assumed that new instances will be raised within a maximum of 30 seconds.
 
