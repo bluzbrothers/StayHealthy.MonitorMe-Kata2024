@@ -9,6 +9,7 @@ Accepted
 ## Context:
 The decision is needed to determine the scope of patient data transmission within the "MonitorMe" project, a patient monitoring system.
 
+[context link out](C4/C2-containers.md#container-view-c2)
 ## Decision:
 The decision is that patient data will not be transmitted throughout the entire ecosystem. Information for nursing staff will be sourced exclusively from the patient registration system with sensors. This decision prioritizes data security by centralizing patient information in one location.
 
