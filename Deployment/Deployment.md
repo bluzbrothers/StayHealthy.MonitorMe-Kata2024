@@ -14,7 +14,7 @@ Overall, by leveraging Kubernetes, we can effectively manage and scale our infra
 Detailed description:
 * Sensors and Nurse station initiates connections to the K8s Ingress controller
 * Each Service has defined proper auto-scaling policies (they are treated as an implementation details and doesn't important from architecture perspective)
-* At least 3 Pods should be available all the time to keep system availability
+* At least 3 Pods should be available all the time to keep system availability [ADR-018](/ADR/ADR-018-high-availability-automated-instance-duplication.md)
 
 
 **Important note!** The Message Streaming Platform and databases are currently depicted as part of the Kubernetes deployment; however, it is possible to modify this configuration in subsequent steps to exclude them and instead install them directly on the Virtual Machines. 
