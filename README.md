@@ -1,7 +1,7 @@
 # StayHealthy.MonitorMe | Architectural Kata (Winter 2024)
 
 ## The BluzBrothers Team
-<img src="ArchitectureCharacteristics/images/Kata.png" />
+<img src="ArchitectureCharacteristics/images/kata_github.png" />
 
 * Artur Kruszewski &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/artur-kruszewski/)
 * Wojciech Kasa &nbsp;[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/wojciech-kasa-b271b0141/)
@@ -10,6 +10,7 @@
 
 ## Introduction
 Welcome to the architectural story of MonitorMe - the O'Reilly Winter 2024 Architectural Kata.
+Our team took the 1st place. The winning presentation is here: https://www.youtube.com/watch?v=td_AVU1QORk 
 
 ## Company Overview
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and MyMedicalData.
