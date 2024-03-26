@@ -1,4 +1,4 @@
-# DR-004: Data Retention Policy - 24-Hour Data Expiry
+# ADR-004: Data Retention Policy - 24-Hour Data Expiry
 ## Date:
 2024-02-17
 
